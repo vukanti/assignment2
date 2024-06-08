@@ -43,9 +43,7 @@ print("While loop:")
 count = 0
 while count < 5:
     print(f"Count: {count}")
-    count += 1
-
-# Functions
+    count +# Functions
 def greet(name):
     return f"Hello, {name}!"
 
@@ -64,5 +62,7 @@ class Dog:
 my_dog = Dog("Buddy", "Golden Retriever")
 print(my_dog.bark())
 
+<<<<<<< HEAD
 a=2, b=3 print (a+b)
+=======
 
