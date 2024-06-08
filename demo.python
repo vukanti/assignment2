@@ -1,0 +1,66 @@
+# Basic Python Code
+
+# Variables and Data Types
+name = "Alice"
+age = 30
+height = 5.5
+is_student = False
+
+print(f"Name: {name}, Age: {age}, Height: {height}, Is Student: {is_student}")
+
+# Lists
+fruits = ["apple", "banana", "cherry"]
+print("Fruits:", fruits)
+
+# Adding an element to the list
+fruits.append("orange")
+print("Updated Fruits:", fruits)
+
+# Dictionaries
+person = {
+    "name": "Bob",
+    "age": 25,
+    "city": "New York"
+}
+print("Person:", person)
+
+# Adding a key-value pair to the dictionary
+person["email"] = "bob@example.com"
+print("Updated Person:", person)
+
+# Conditionals
+if age > 18:
+    print(f"{name} is an adult.")
+else:
+    print(f"{name} is not an adult.")
+
+# Loops
+print("Loop through a list:")
+for fruit in fruits:
+    print(fruit)
+
+print("While loop:")
+count = 0
+while count < 5:
+    print(f"Count: {count}")
+    count += 1
+
+# Functions
+def greet(name):
+    return f"Hello, {name}!"
+
+greeting = greet("Charlie")
+print(greeting)
+
+# Classes and Objects
+class Dog:
+    def __init__(self, name, breed):
+        self.name = name
+        self.breed = breed
+
+    def bark(self):
+        return f"{self.name} says woof!"
+
+my_dog = Dog("Buddy", "Golden Retriever")
+print(my_dog.bark())
+
