@@ -64,3 +64,5 @@ class Dog:
 my_dog = Dog("Buddy", "Golden Retriever")
 print(my_dog.bark())
 
+a=2, b=3, print(a+b)
+
